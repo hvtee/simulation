@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336f19c1-07d2-47f3-bbb5-c82ff68b8daa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Grass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Herbivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Predator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Rock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/StaticEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/Render.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/SimulationMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Herbivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Predator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/SimulationMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SimulationMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +34,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2TshXR3jb4XssMj7YcvIKXvWeeD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "build.tools"
   }
@@ -93,10 +81,22 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="coordinate" />
+        <watch expression="((TreeMap.Entry)map.entrySet().toArray()[1]).getKey()" custom="java.util.TreeMap.Entry" />
       </configuration>
     </watches-manager>
   </component>
