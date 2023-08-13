@@ -34,7 +34,7 @@ public abstract class Entity {
     }
 }
 
-enum EntityType {
+public enum EntityType {
     GRASS, TREE, ROCK,
     HERBIVORE, PREDATOR;
 }

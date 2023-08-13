@@ -1,14 +1,13 @@
 package model;
 
 public abstract class Creature extends Entity {
-    private double health;
-    private int speed;
+    protected double health;
+    protected int speed;
+    protected int vision;
 
     public Creature(char symbol, EntityType entityType) {
         super(symbol, entityType);
     }
 
-    public void makeMove() {
-
-    }
+    public abstract void makeMove(Coordinates coordinate);
 }
